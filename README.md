@@ -58,14 +58,17 @@ CBIS-DDSM : Dataset de mammographies avec annotations précises (bénin/malin).
 
 Charger, explorer, et prétraiter les radiographies.
 Appliquer des techniques de normalisation et de mise à l’échelle.
+
 Étape 2 : Entraînement du modèle
 
 Implémenter un modèle CNN pour la classification.
 Entraîner le modèle sur les données prétraitées.
+
 Étape 3 : Optimisation
 
 Utiliser des architectures avancées (ResNet, EfficientNet).
 Améliorer la gestion des données déséquilibrées.
+
 Étape 4 : Application
 
 Création d'une application Web "Mammo Analyzer" qui permet de détecter quel type de tumeur
