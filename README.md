@@ -7,7 +7,7 @@ Ce projet vise à détecter et classifier automatiquement des tumeurs mammaires 
 - Réduire les faux négatifs.
 - Prioriser les cas nécessitant une attention urgente.
 
-Le projet utilise des techniques d'apprentissage profond, notamment des réseaux de neurones convolutionnels (CNN), pour analyser les images médicales.
+Le projet utilise des techniques de deep learning, notamment des réseaux de neurones convolutionnels (CNN), pour analyser les images médicales.
 
 ---
 
@@ -26,7 +26,7 @@ P1-Classification/
 
 ├── .venv/                  # Environnement virtuel Python pour isoler les dépendances
 
-├── analysis_results/       # Stockage des résultats d'analyse et métriques du modèle
+├── analysis_results/       # Stockage des résultats d'analyse lors de la Data Preparation
 
 ├── app/                    # Application principale et code de production
 
