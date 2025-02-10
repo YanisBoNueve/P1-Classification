@@ -23,7 +23,7 @@ Le projet utilise des techniques d'apprentissage profond, notamment des réseaux
 
 ## Structure du projet!
 P1-Classification/
-│
+
 ├── .venv/                  # Environnement virtuel Python pour isoler les dépendances
 
 ├── analysis_results/       # Stockage des résultats d'analyse et métriques du modèle
