@@ -23,6 +23,7 @@ Le projet utilise des techniques d'apprentissage profond, notamment des réseaux
 
 ## Structure du projet!
 P1-Classification/
+
 │
 ├── notebooks/          # Notebooks Jupyter pour l'exploration et le prototypage
 
