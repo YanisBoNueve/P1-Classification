@@ -23,19 +23,19 @@ Le projet utilise des techniques d'apprentissage profond, notamment des réseaux
 
 ## Structure du projet!
 P1-Classification/
-
 │
-├── notebooks/          # Notebooks Jupyter pour l'exploration et le prototypage
-
-├── scripts/            # Scripts Python pour le traitement des données et l'entraînement du modèle
-
-├── P1/                 # Environnement virtuel pour isoler les dépendances
-
-├── test_images/        # Dossier contenant les données pour tester le modèle (radiographies)
-
-├── requirements.txt    # Liste des bibliothèques utilisées
-
-└── README.md           # Documentation du projet
+├── .venv/                  # Environnement virtuel Python pour isoler les dépendances
+├── analysis_results/       # Stockage des résultats d'analyse et métriques du modèle
+├── app/                    # Application principale et code de production
+├── notebook/              # Notebooks Jupyter pour l'exploration et le prototypage
+├── P1/                    # Module principal contenant le code source du projet
+├── scripts/              # Scripts utilitaires et d'automatisation
+├── temp/                 # Fichiers temporaires générés pendant l'exécution
+├── test_images/         # Images de test pour la validation du modèle
+├── .gitignore           # Liste des fichiers à ignorer par Git
+├── app.py              # Point d'entrée de l'application
+├── installed_packages.txt  # Liste explicite des paquets installés avec leurs versions
+└── README.md           # Documentation principale du projet
 
 ## Données
 Les radiographies utilisées dans ce projet proviennent de datasets publics :
