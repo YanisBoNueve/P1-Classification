@@ -7,7 +7,7 @@ Ce projet vise à détecter et classifier automatiquement des tumeurs mammaires 
 - Réduire les faux négatifs.
 - Prioriser les cas nécessitant une attention urgente.
 
-Le projet utilise des techniques d'apprentissage profond, notamment des réseaux de neurones convolutionnels (CNN), pour analyser les images médicales.
+Le projet utilise des techniques de deep learning, notamment des réseaux de neurones convolutionnels (CNN), pour analyser les images médicales.
 
 ---
 
@@ -21,15 +21,32 @@ Le projet utilise des techniques d'apprentissage profond, notamment des réseaux
 
 ---
 
-## Structure du projet
+## Structure du projet!
 P1-Classification/
-│
-├── notebooks/          # Notebooks Jupyter pour l'exploration et le prototypage
-├── scripts/            # Scripts Python pour le traitement des données et l'entraînement du modèle
-├── P1/                 # Environnement virtuel pour isoler les dépendances
-├── test_images/        # Dossier contenant les données pour tester le modèle (radiographies)
-├── requirements.txt    # Liste des bibliothèques utilisées
-└── README.md           # Documentation du projet
+
+├── .venv/                  # Environnement virtuel Python pour isoler les dépendances
+
+├── analysis_results/       # Stockage des résultats d'analyse lors de la Data Preparation
+
+├── app/                    # Application principale et code de production
+
+├── notebook/              # Notebooks Jupyter pour l'exploration et le prototypage
+
+├── P1/                    # Module principal contenant le code source du projet
+
+├── scripts/              # Scripts utilitaires et d'automatisation
+
+├── temp/                 # Fichiers temporaires générés pendant l'exécution
+
+├── test_images/         # Images de test pour la validation du modèle
+
+├── .gitignore           # Liste des fichiers à ignorer par Git
+
+├── app.py              # Point d'entrée de l'application
+
+├── installed_packages.txt  # Liste explicite des paquets installés avec leurs versions
+
+└── README.md           # Documentation principale du projet
 
 ## Données
 Les radiographies utilisées dans ce projet proviennent de datasets publics :
@@ -37,22 +54,29 @@ Les radiographies utilisées dans ce projet proviennent de datasets publics :
 CBIS-DDSM : Dataset de mammographies avec annotations précises (bénin/malin).
 
 ## Objectifs du projet
-Étape 1 : Préparation des données
+### Étape 1 : Préparation des données
 
 Charger, explorer, et prétraiter les radiographies.
 Appliquer des techniques de normalisation et de mise à l’échelle.
-Étape 2 : Entraînement du modèle
+
+### Étape 2 : Entraînement du modèle
 
 Implémenter un modèle CNN pour la classification.
 Entraîner le modèle sur les données prétraitées.
-Étape 3 : Optimisation
 
-Utiliser des architectures avancées (ResNet, EfficientNet).
-Améliorer la gestion des données déséquilibrées.
-Étape 4 : Interprétabilité
+### Étape 3 : Optimisation
 
-Intégrer des outils d’explicabilité (Grad-CAM, SHAP, LIME).
-Visualiser les zones d’intérêt des mammographies.
+Test de plusieurs modèles (EfficientNetBO, MobileNetV3Small, ...)
+Varier les hyper paramètres à prendre en compte
+Retravailler les données de bases pour avoir la meilleure interprétabilité possible.
+#### Aller à la fin de model.ipynb pour voir les résultats de la formule gardée
+
+### Étape 4 : Application
+
+Création d'une application Web "Mammo Analyzer" qui permet de détecter quel type de tumeur
+est présent sur la mammographie.
+<img width="1415" alt="image" src="https://github.com/user-attachments/assets/5dbd9e2c-9a98-452a-aaf3-b39ed836696f" />
+
 
 ## Démarrage rapide
 ### Prérequis
@@ -70,15 +94,19 @@ jupyterlab
 Clone ce dépôt :
 
 git clone https://github.com/ton-repo/P1-Classification.git
+
 cd P1-Classification
+
 Crée et active un environnement virtuel (optionnel) :
 
 python3 -m venv venv
 source venv/bin/activate  # macOS/Linux
 .\venv\Scripts\activate   # Windows
+
 Installe les dépendances :
 
-pip install -r requirements.txt
+pip install -r installed_packages.txt
+
 ### Lancer le projet
 Pour explorer les données ou tester le modèle, ouvre un notebook Jupyter :
 
