@@ -25,16 +25,27 @@ Le projet utilise des techniques d'apprentissage profond, notamment des réseaux
 P1-Classification/
 │
 ├── .venv/                  # Environnement virtuel Python pour isoler les dépendances
+
 ├── analysis_results/       # Stockage des résultats d'analyse et métriques du modèle
+
 ├── app/                    # Application principale et code de production
+
 ├── notebook/              # Notebooks Jupyter pour l'exploration et le prototypage
+
 ├── P1/                    # Module principal contenant le code source du projet
+
 ├── scripts/              # Scripts utilitaires et d'automatisation
+
 ├── temp/                 # Fichiers temporaires générés pendant l'exécution
+
 ├── test_images/         # Images de test pour la validation du modèle
+
 ├── .gitignore           # Liste des fichiers à ignorer par Git
+
 ├── app.py              # Point d'entrée de l'application
+
 ├── installed_packages.txt  # Liste explicite des paquets installés avec leurs versions
+
 └── README.md           # Documentation principale du projet
 
 ## Données
