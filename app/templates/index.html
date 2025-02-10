@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mammo Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+            <div class="progress-text">0%</div>
+        </div>
+        <p id="loading-status">Initializing...</p>
+        <div class="loading-logs">
+            <div class="log-container"></div>
+        </div>
+    </div>
+
+    <div class="container" style="display: none;">
+        <header>
+            <h1>Mammo Analyzer</h1>
+            <p class="author">By Yanis BOUTOUBA</p>
+        </header>
+
+        <div class="upload-section">
+            <div class="upload-box" id="drop-zone">
+                <input type="file" id="file-input" accept=".dcm" hidden>
+                <button class="upload-button">
+                    ADD YOUR MAMMOGRAPHY<br>HERE !
+                </button>
+                <p class="drag-text">or drag and drop your file here</p>
+            </div>
+        </div>
+
+        <!-- Analysis Loading -->
+        <div id="analysis-loading" style="display: none;">
+            <div class="loader"></div>
+            <p>Analyzing mammogram...</p>
+        </div>
+
+        <div class="results-section" style="display: none;">
+            <!-- Results content -->
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
