@@ -21,7 +21,9 @@ Le projet utilise des techniques d'apprentissage profond, notamment des réseaux
 
 ---
 
-## Structure du projet
+## Structure du projet!
+[Capture d’écran 2025-02-10 à 16 38 39](https://github.com/user-attachments/assets/df8cc3be-7e32-4b9c-9578-d2ec337fe6ab)
+
 P1-Classification/
 │
 ├── notebooks/          # Notebooks Jupyter pour l'exploration et le prototypage
