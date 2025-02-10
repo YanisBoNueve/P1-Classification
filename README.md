@@ -66,10 +66,10 @@ Entraîner le modèle sur les données prétraitées.
 
 Utiliser des architectures avancées (ResNet, EfficientNet).
 Améliorer la gestion des données déséquilibrées.
-Étape 4 : Interprétabilité
+Étape 4 : Application
 
-Intégrer des outils d’explicabilité (Grad-CAM, SHAP, LIME).
-Visualiser les zones d’intérêt des mammographies.
+Création d'une application Web "Mammo Analyzer" qui permet de détecter quel type de tumeur
+est présent sur la mammographie.
 
 ## Démarrage rapide
 ### Prérequis
@@ -95,7 +95,7 @@ source venv/bin/activate  # macOS/Linux
 .\venv\Scripts\activate   # Windows
 Installe les dépendances :
 
-pip install -r requirements.txt
+pip install -r installed_packages.txt
 ### Lancer le projet
 Pour explorer les données ou tester le modèle, ouvre un notebook Jupyter :
 
