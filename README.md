@@ -66,8 +66,9 @@ Entraîner le modèle sur les données prétraitées.
 
 Étape 3 : Optimisation
 
-Utiliser des architectures avancées (ResNet, EfficientNet).
-Améliorer la gestion des données déséquilibrées.
+Test de plusieurs modèles (EfficientNetBO, MobileNetV3Small, ...)
+Varier les hyper paramètres à prendre en compte
+Retravailler les données de bases pour avoir la meilleure interprétabilité possible.
 
 Étape 4 : Application
 
