@@ -54,26 +54,29 @@ Les radiographies utilisées dans ce projet proviennent de datasets publics :
 CBIS-DDSM : Dataset de mammographies avec annotations précises (bénin/malin).
 
 ## Objectifs du projet
-Étape 1 : Préparation des données
+### Étape 1 : Préparation des données
 
 Charger, explorer, et prétraiter les radiographies.
 Appliquer des techniques de normalisation et de mise à l’échelle.
 
-Étape 2 : Entraînement du modèle
+### Étape 2 : Entraînement du modèle
 
 Implémenter un modèle CNN pour la classification.
 Entraîner le modèle sur les données prétraitées.
 
-Étape 3 : Optimisation
+### Étape 3 : Optimisation
 
 Test de plusieurs modèles (EfficientNetBO, MobileNetV3Small, ...)
 Varier les hyper paramètres à prendre en compte
 Retravailler les données de bases pour avoir la meilleure interprétabilité possible.
+#### Aller à la fin de model.ipynb pour voir les résultats de la formule gardée
 
-Étape 4 : Application
+### Étape 4 : Application
 
 Création d'une application Web "Mammo Analyzer" qui permet de détecter quel type de tumeur
 est présent sur la mammographie.
+<img width="1415" alt="image" src="https://github.com/user-attachments/assets/5dbd9e2c-9a98-452a-aaf3-b39ed836696f" />
+
 
 ## Démarrage rapide
 ### Prérequis
