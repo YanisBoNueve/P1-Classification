@@ -25,10 +25,15 @@ Le projet utilise des techniques d'apprentissage profond, notamment des réseaux
 P1-Classification/
 │
 ├── notebooks/          # Notebooks Jupyter pour l'exploration et le prototypage
+
 ├── scripts/            # Scripts Python pour le traitement des données et l'entraînement du modèle
+
 ├── P1/                 # Environnement virtuel pour isoler les dépendances
+
 ├── test_images/        # Dossier contenant les données pour tester le modèle (radiographies)
+
 ├── requirements.txt    # Liste des bibliothèques utilisées
+
 └── README.md           # Documentation du projet
 
 ## Données
