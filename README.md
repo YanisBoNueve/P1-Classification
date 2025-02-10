@@ -94,15 +94,19 @@ jupyterlab
 Clone ce dépôt :
 
 git clone https://github.com/ton-repo/P1-Classification.git
+
 cd P1-Classification
+
 Crée et active un environnement virtuel (optionnel) :
 
 python3 -m venv venv
 source venv/bin/activate  # macOS/Linux
 .\venv\Scripts\activate   # Windows
+
 Installe les dépendances :
 
 pip install -r installed_packages.txt
+
 ### Lancer le projet
 Pour explorer les données ou tester le modèle, ouvre un notebook Jupyter :
 
