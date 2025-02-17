@@ -13,9 +13,9 @@ Le projet utilise des techniques de deep learning, notamment des réseaux de neu
 
 ## Fonctionnalités
 - Classification des images en trois catégories :
-  - Aucun cancer détecté.
-  - Cancer bénin détecté.
-  - Cancer malin détecté.
+  - Tumeur bénigne sans retour.
+  - Tumeur bénigne.
+  - Tumeur maligne (Cancer).
 - Prédiction de la probabilité de malignité pour chaque image.
 - Préparation pour une future évolution vers la segmentation d'images.
 
