@@ -24,7 +24,7 @@ Le projet utilise des techniques de deep learning, notamment des réseaux de neu
 ## Structure du projet!
 P1-Classification/
 
-├── .venv/                  # Environnement virtuel Python pour isoler les dépendances
+├── .venv/                  # Environnement virtuel Python pour isoler les dépendances (pas visible sur GIT)
 
 ├── analysis_results/       # Stockage des résultats d'analyse lors de la Data Preparation
 
@@ -32,7 +32,7 @@ P1-Classification/
 
 ├── notebook/              # Notebooks Jupyter pour l'exploration et le prototypage
 
-├── P1/                    # Module principal contenant le code source du projet
+├── P1/                    # Modules complémentaires
 
 ├── scripts/              # Scripts utilitaires et d'automatisation
 
