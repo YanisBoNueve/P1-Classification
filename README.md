@@ -22,31 +22,17 @@ Le projet utilise des techniques de deep learning, notamment des réseaux de neu
 ---
 
 ## Structure du projet!
+
 P1-Classification/
-
-├── .venv/                  # Environnement virtuel Python pour isoler les dépendances (pas visible sur GIT)
-
-├── analysis_results/       # Stockage des résultats d'analyse lors de la Data Preparation
-
-├── app/                    # Application principale et code de production
-
-├── notebook/              # Notebooks Jupyter pour l'exploration et le prototypage
-
-├── P1/                    # Modules complémentaires
-
-├── scripts/              # Scripts utilitaires et d'automatisation
-
-├── temp/                 # Fichiers temporaires générés pendant l'exécution
-
-├── test_images/         # Images de test pour la validation du modèle
-
-├── .gitignore           # Liste des fichiers à ignorer par Git
-
-├── app.py              # Point d'entrée de l'application
-
-├── installed_packages.txt  # Liste explicite des paquets installés avec leurs versions
-
-└── README.md           # Documentation principale du projet
+├── P1/ # Modules complémentaires (prétraitements, métriques, etc.)
+├── analysis_results/ # Résultats d’analyse exploratoire, courbes, logs, métriques
+├── app/ # Application (ex : FastAPI, Streamlit ou Flask)
+├── notebook/ # Notebooks Jupyter pour l’exploration et les tests
+├── scripts/ # Scripts de traitement, d'entraînement ou de pipeline
+├── .gitignore # Fichiers à exclure du versionnement Git
+├── app.py # Fichier principal de lancement de l'application
+├── installed_packages.txt # Liste figée des dépendances installées
+└── README.md # Documentation du projet
 
 ## Données
 Les radiographies utilisées dans ce projet proviennent de datasets publics :
