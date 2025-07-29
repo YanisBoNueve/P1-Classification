@@ -25,13 +25,21 @@ Le projet utilise des techniques de deep learning, notamment des réseaux de neu
 
 P1-Classification/
 ├── P1/ # Modules complémentaires (prétraitements, métriques, etc.)
+
 ├── analysis_results/ # Résultats d’analyse exploratoire, courbes, logs, métriques
+
 ├── app/ # Application (ex : FastAPI, Streamlit ou Flask)
+
 ├── notebook/ # Notebooks Jupyter pour l’exploration et les tests
+
 ├── scripts/ # Scripts de traitement, d'entraînement ou de pipeline
+
 ├── .gitignore # Fichiers à exclure du versionnement Git
+
 ├── app.py # Fichier principal de lancement de l'application
+
 ├── installed_packages.txt # Liste figée des dépendances installées
+
 └── README.md # Documentation du projet
 
 ## Données
