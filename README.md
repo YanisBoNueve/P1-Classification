@@ -24,6 +24,7 @@ Le projet utilise des techniques de deep learning, notamment des réseaux de neu
 ## Structure du projet!
 
 P1-Classification/
+
 ├── P1/ # Modules complémentaires (prétraitements, métriques, etc.)
 
 ├── analysis_results/ # Résultats d’analyse exploratoire, courbes, logs, métriques
