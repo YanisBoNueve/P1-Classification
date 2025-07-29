@@ -68,7 +68,7 @@ Retravailler les données de bases pour avoir la meilleure interprétabilité po
 
 ### Étape 4 : Application
 
-Création d'une application Web "Mammo Analyzer" qui permet de détecter quel type de tumeur
+Création d'une application Web "Mammo Analyzer" (côte front-end) qui permet de détecter quel type de tumeur
 est présent sur la mammographie.
 <img width="1415" alt="image" src="https://github.com/user-attachments/assets/5dbd9e2c-9a98-452a-aaf3-b39ed836696f" />
 
